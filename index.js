@@ -6,8 +6,10 @@
  */
 'use strict';
 const numeric = require('./lib/numeric');
+const string = require('./lib/string');
 const utils = {
     numeric,
+    string,
 }
 
 module.exports = utils;
